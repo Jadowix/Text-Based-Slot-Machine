@@ -130,7 +130,7 @@ def main():
     while True:
         print(f"Current balance is ${balance}")
         answer = input("Press Enter to play (Q to quit).")
-        if answer == "q":
+        if answer == "q" or "Q":
             break
         balance += spin(balance)
 
